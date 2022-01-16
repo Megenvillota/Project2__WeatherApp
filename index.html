@@ -15,14 +15,15 @@
   >
     <div class="weatherbox">
       <div class="search">
-        <input type="text" class="search-field" placeholder="City" />
-        <button>Search</button>
+        <input type="text" id="city" class="search-field" placeholder="City" />
+        <button onclick="fetchWeather()">Search</button>
       </div>
       <div class="weather">
-        <h2 class="city">Weather in New York</h2>
-        <h2><div class="temp">43°F</div></h2>
-        <img src="" alt="" class="icon" />
-        <h2><div class="description">Rain</div></h2>
+        <h1 class="city">Weather in New York</h1>
+        <h1><div class="temp">43°F</div></h1>
+        <h1>
+          <div class="description" style="text-transform: capitalize">Rain</div>
+        </h1>
       </div>
     </div>
   </body>

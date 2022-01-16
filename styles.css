@@ -13,7 +13,6 @@ body {
 }
 
 .weatherbox {
-  background: #070707d0;
   opacity: 0.9;
   color: white;
   font-weight: bolder;
@@ -21,7 +20,7 @@ body {
   padding: 2em;
   border-radius: 40px;
   width: 100%;
-  max-width: 220px;
+  max-width: 320px;
   margin: 1em;
 }
 
@@ -37,10 +36,11 @@ input {
   outline: none;
   padding: 0.5em;
   border-radius: 20em;
-  background: #a09e9e2b;
-  color: white;
+  background: #fdfdfd;
+  color: rgb(10, 1, 1);
   font-family: inherit;
   height: 25px;
+  width: 350px;
   font-size: 100%;
 }
 
